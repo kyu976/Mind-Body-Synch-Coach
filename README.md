@@ -6,9 +6,7 @@ This project addresses the growing issue of **"Orthosomnia"**—the anxiety or d
 
 ## 🎯 Business Objectives
 1. **Solve the "So What?" Problem**: Validate subjective feelings to make data actionable, reducing churn among users who feel their device is "inaccurate".
-
 2. **Increase Daily Active Users (DAU)**: Transform the app into a tool users check for permission to feel good (Reassurance) or guidance to rest (Warning), rather than just a passive tracker.
-
 3. **Wellness Expansion**: Position the product as a mental health tool, opening a new market for stress-management features alongside fitness tracking.
 
 ## 📊 Data Sources
@@ -32,17 +30,13 @@ The analysis utilizes a **multi-modal dataset** aligning wearable sensor data wi
 
 ## 🛠 Tech Stack
 - **Python**: Core analytical engine.
-
 - **Pandas & NumPy**: Data cleaning, timestamp alignment, and Z-score normalization.
-
 - **Plotly Express**: Interactive "Mood vs. Metrics" visualizations.
-
 - **SciPy.stats**: Statistical correlation analysis.
 
 ## 💡 Key Insights & Recommendations
-- **The "Warning Mode" (High Energy / Low Battery)**: Identified users who feel energetic despite empty biological batteries. **Recommendation**: Flag these days to warn against high-intensity training to prevent injury.
-
-- **The "Maintenance Mode" (The Sync)**: Instances where data aligns with perception. **Recommendation**: Reinforce these streaks with positive feedback ("Mind and body are in sync").
-
-- **Paradoxical Insomnia**
-: Defined the specific user segment suffering from "Orthosomnia" (feeling tired despite "green" data), requiring psychological reframing rather than standard sleep hygiene tips.
+- **The "Warning Mode" (High Energy / Low Battery)**: Identified users who feel energetic despite empty biological batteries.
+  **Recommendation**: Flag these days to warn against high-intensity training to prevent injury.
+- **The "Maintenance Mode" (The Sync)**: Instances where data aligns with perception.
+  **Recommendation**: Reinforce these streaks with positive feedback ("Mind and body are in sync").
+- **Paradoxical Insomnia**: Defined the specific user segment suffering from "Orthosomnia" (feeling tired despite "green" data), requiring psychological reframing rather than standard sleep hygiene tips.
