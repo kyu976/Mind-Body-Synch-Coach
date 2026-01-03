@@ -15,21 +15,19 @@ The analysis utilizes a **multi-modal dataset** aligning wearable sensor data wi
 - **Objective Metrics (Ground Truth)**:
 
   - `main_sleep_efficiency`: Sleep Density (Time asleep / Time in bed).
-
   - `HRV` (Heart Rate Variability): Key marker for stress resilience.
-
   - `main_sleep_rem_minutes` & `deep_minutes`: Architecture for mental/physical recovery.
 
 - **Subjective Metrics (Perception)**:
 
   - `selfreport_sleep_quality`: Likert Scale satisfaction.
-
   - `selfreport_hours_slept`: Compared against actual time to quantify "Time Perception Distortion."
 
 - **Target Variables**: energy_morning (Primary Outcome) and stress_morning.
 
 ## 🛠 Tech Stack
 - **Python**: Core analytical engine.
+- **Scikit-Learn**: Employed for K-Means Clustering and Data Preprocessing (StandardScaler).
 - **Pandas & NumPy**: Data cleaning, timestamp alignment, and Z-score normalization.
 - **Plotly Express**: Interactive "Mood vs. Metrics" visualizations.
 - **SciPy.stats**: Statistical correlation analysis.
